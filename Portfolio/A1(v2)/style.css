@@ -1,0 +1,286 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.header{
+    background:#191919;
+    height: 119px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.logo{
+    padding: 36px;
+}
+
+div.container-logo{
+    height: 67px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: flex;  
+    align-items: center;
+}
+
+a.logo-link{
+   height: 33px;
+   margin-left: 50px
+}
+
+a.ButtonText{
+    size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: DM Sans;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 14px;
+}
+a.ButtonTextBlue{
+    size: 17px;
+    line-height: 27px;
+    font-size: 400;
+    font-family: DM Sans;
+    color: #118DA8;
+    text-decoration: none;
+    margin-right: 14px
+    
+}
+
+div.container-buttons{
+    display: flex;
+    width: 403px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+div.main{
+    height: 913px;
+    background:#191919;
+}
+
+div.containerImg{
+    padding-top: 15px;
+    padding-left: 35px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+img.MainDecorIMG{
+    position: absolute;
+}
+
+
+img.MainIMG{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+div.Text-link{
+    padding-left :60px;
+    padding-top: 160px;
+}
+
+img.IconLink{
+margin-right: 13px;
+
+}
+div.containerLinks{
+    padding-left: 21px;
+    padding-top: 16px;
+    position: absolute
+}
+
+div.LastEpisodes{
+    background: #191919;
+    margin-bottom: 40px;
+}
+
+p.LastEpisodes{
+    font-size: 500;
+    margin: 0px;
+    font-family: DM sans;
+    color: #FFFFFF;
+    size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+div.LastEpisodes{
+    padding-top: 80px;
+    padding-left: 60px;
+    height: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button.button{
+    background: #118DA8;
+    border-radius: 6px;
+    padding-top:12px ;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-top:30px ;
+    margin-right: 70px;
+    color: #FFFFFF;
+    font-family: DM sans;
+    font-size: 400;
+    line-height: 17px;
+}
+
+div.topMain{
+    height: 2088px;
+    background: #191919;
+}
+
+div.EpisodesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+div.Episodes{
+    background: #000000;
+    width: 1300px;
+    height: 545px;
+    margin-bottom: 60px;
+    border-radius: 32px;
+    display: flex;
+}
+
+img.ImgEpisodes{
+    width: 389px;
+    height: 465px;
+    margin: 40px;
+    margin-right: 53px;
+}
+
+div.MiniInfoBlock{
+    width: 73px;
+    height: 23px;
+    background: #191919;
+    font-family: DM sans;
+    size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+h6.episodes{
+   color: #118DA8; 
+   font-family: DM sans;
+   size: 18px;
+   font-weight: 400;
+   line-height: 27px;
+   margin: 0px;
+}
+
+p.episodes{
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 2.559999942779541px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 18px;
+}    
+
+p.episodestext{
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 18px;
+    margin-top: 28px;
+    margin-right: 50px;
+}
+
+button.buttonEpisodes{
+    background: #118DA8;
+    border-radius: 6px;
+    padding-top:12px ;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-top: 12px ;
+    margin-right: 70px;
+    color: #FFFFFF;
+    font-family: DM sans;
+    font-size: 400;
+    line-height: 17px;
+}
+
+p.episodes2{
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 2.559999942779541px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 102px;
+    margin: 0;
+    margin-top: 18px;
+    margin-right: 50px;
+}
+
+div.MiniInfoBlock2{
+    width: 136px;
+    height: 23px;
+    background: #191919;
+    font-family: DM sans;
+    size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+p.episodestext2{
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 50px;
+    margin-top: 28px;
+    margin-right: 50px;
+}
+
+p.episodestext3{
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 50px;
+    margin-top: 28px;
+    margin-right: 50px;
+}
+

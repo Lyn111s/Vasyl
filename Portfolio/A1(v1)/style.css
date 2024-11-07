@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.header{
+    background:#191919;
+    height: 119px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.logo{
+    padding: 36px;
+}
+
+div.container-logo{
+    height: 67px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: flex;  
+    align-items: center;
+}
+
+a.logo-link{
+   height: 33px;
+   margin-left: 50px
+}
+
+a.ButtonText{
+    size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: DM Sans;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a.ButtonTextBlue{
+    size: 17px;
+    line-height: 27px;
+    font-size: 400;
+    font-family: DM Sans;
+    color: #118DA8;
+    text-decoration: none;
+}
+
+div.container-buttons{
+    display: flex;
+    width: 403px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px
+}
+
+
