@@ -147,6 +147,7 @@ div.EpisodesContainer{
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    height: 1869px;
 }
 
 div.Episodes{
@@ -283,4 +284,65 @@ p.episodestext3{
     margin-top: 28px;
     margin-right: 50px;
 }
+
+div.subBlock{
+    background-color: #191919;
+    height: 943px;
+    padding: 100px 70px 100px 70px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+img.subBlockImg{
+    width:650px;
+    height:743px;
+    margin-top: 100px;
+}
+
+.subBlockImgContainer{
+    margin: 147.7px 60px 147.7px 0px;
+}
+
+img.ArrowButton{
+    background-color: #118DA8;
+    border-radius: 400px;
+    padding :20px 34px 20px 34px ;
+    transform: rotate(-90deg);
+}
+
+p.smallTitelSubBlock{
+    color: #118DA8;
+    font-family: DM Sans;
+    width: 126px;
+    height: 27px;
+    font-size: 18px
+}
+
+.NameTagSubBlock{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79.2px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.TextSubBlock{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#TextSubBlock1{
+    margin-top: 33px;
+    width: 528px;
+}
+
+#TextSubBlock2{
+    width: 556px;
+    margin-top: 28px;
+}
+
 
