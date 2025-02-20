@@ -61,8 +61,11 @@ div.container-buttons{
 }
 
 div.main{
-    height: 913px;
+    height: auto;
     background:#191919;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 div.containerImg{
@@ -345,4 +348,82 @@ p.smallTitelSubBlock{
     margin-top: 28px;
 }
 
+div.SubscribeBlock{
+    display: flex;
+    background-color: #191919;
+    justify-content: space-around;
+    height: 600px;
+}
 
+img.subscribeBlockImg{
+    position: absolute;
+    margin-top: 335px;
+    padding-right: 1240px;
+}
+
+p.EmailSubtext{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #118DA8;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+p.SubText{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    width: 431px;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+
+div.SubContainer{
+    background-color: #000000;
+    width: 1300px;
+    height: 387px;
+    top: 100px;
+    left: 50px;
+    border-radius: 32px;
+}
+
+div.Data4Sub{
+    margin-top: -75px;
+    padding-left: 718px;
+    padding-bottom: 300px;
+}
+
+a.subButton{
+    padding: 10px 15px 10px 15px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top:20px ;
+}
+
+div.SubBlockText{
+    width: 158px;
+}
+
+div.DataSubEmail{
+    width: 522px;
+    height: px;
+    background-color: #191919;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+div.DataSubName{
+    width: 522px;
+    height: px;
+    background-color: #191919;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
